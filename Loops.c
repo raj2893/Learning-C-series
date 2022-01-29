@@ -7,6 +7,7 @@ int main()
     int j = 0;
 
     // While loop
+    printf("Below lines are printed by while loop\n");
     while (j <= var)
     {
         printf("Hi!\n");
@@ -14,12 +15,14 @@ int main()
     }
 
     // For loop
+     printf("Below lines are printed by for loop\n");
     for (int i = 0; i <= var; i++)
     {
         printf("Hi!\n");
     }
 
     // Do-While loop
+     printf("Below lines are printed by do-while loop\n");
     do
     {
         printf("Hi!\n");
